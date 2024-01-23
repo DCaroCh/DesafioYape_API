@@ -13,7 +13,7 @@ public class stepsUpdateBooking extends URLBase {
     RequestSpecification request = RestAssured.given();
     String url;
 
-    @When("^se genera la url del booking a actualizar con id \"([^\"]*)\"$")
+    @Given("^se genera la url del booking a actualizar con id \"([^\"]*)\"$")
     public void geturl(String bookingId) {
         url = getUrlBooking(bookingId);
     }

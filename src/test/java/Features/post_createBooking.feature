@@ -1,7 +1,8 @@
 # language: es
 
-Característica: Crear una nueva reserva
 
+Característica: Crear una nueva reserva
+@Test
   Esquema del escenario: : Generar un nuevo id para una nueva reserva
     Dado se ingreso el "<endpoint>" correcto
     Y los datos sean "<firstname>", "<lastname>", "<totalprice>", "<depositpaid>", "<checkin>", "<checkout>", "<additionalneeds>"

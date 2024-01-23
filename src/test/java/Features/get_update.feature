@@ -2,7 +2,6 @@
 
 Característica: Editar una reserva registrada
 
-  @Test
   Esquema del escenario: Editar los datos de la reserva de un usuario
 
     Dado se genera la url del booking a actualizar con id "<id>"

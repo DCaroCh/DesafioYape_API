@@ -16,6 +16,7 @@ public class stepsGetBooking extends URLBase {
     @When("^se ejecuta la peticion get$")
     public void sendBookingID() {
         response = request.header("Content-Type", "application/json").get(url);
+
         statusCode = response.getStatusCode();
     }
 
@@ -32,7 +33,7 @@ public class stepsGetBooking extends URLBase {
         Assert.assertEquals(name, firstname);
     }
 
-    @Then("^se validara que el status es 400$")
+    @Then("^se validara que el status es 404$")
     public void getStatusCode() {
         Assert.assertEquals("404", statusCode.toString());
     }
