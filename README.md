@@ -10,33 +10,37 @@
      - Pruebas funcionales:
    
        *Crear nuevo token:
-           .Happy path: Generar token correcto de acceso
-           .Unhappy path: Validar que no genere token al ingresar credenciales no validas
+           -Generar token correcto de acceso
+           -Validar que no genere token al ingresar credenciales no validas
   
        * Get booking:
-           .Happy path: Mostrar la información de la reserva con id existentes
-           .Unhappy path: Mostrar la información de la reserva con id inexistente
+           -Mostrar la información de la reserva con id existentes
+           -Mostrar la información de la reserva con id inexistente
   
        * Get booking id:
-           .Listar todos los códigos de reservas
-           .Mostrar código de reserva de usuario filtrando por nombre y apellido alfabeticos
-           .Mostrar código de reserva de usuario filtrando por nombre y apellido con datos incorrectos
-           .Mostrar código de reserva de usuarios filtrando por nombre
-           .Mostrar código de reserva de usuarios filtrando por apellido
-           .Mostrar código de reserva de usuario filtrando por checkin y checkout
-           .Mostrar código de reserva de usuario filtrando por checkin y checkout con datos incorrectos
+           -Listar todos los códigos de reservas
+           -Mostrar código de reserva de usuario filtrando por nombre y apellido alfabeticos
+           -Mostrar código de reserva de usuario filtrando por nombre y apellido con datos incorrectos
+           -Mostrar código de reserva de usuarios filtrando por nombre
+           -Mostrar código de reserva de usuarios filtrando por apellido
+           -Mostrar código de reserva de usuario filtrando por checkin y checkout
+           -Mostrar código de reserva de usuario filtrando por checkin y checkout con datos incorrectos
   
        * Create booking:
-           .Generar un nuevo id para una nueva reserva
+           -Generar un nuevo id para una nueva reserva
   
        * Update boooking:
-           .Editar los datos de la reserva de un usuario
+           -Editar los datos de la reserva de un usuario
   
        * PartialUpdateBooking:
-           .Editar la fecha de la reserva existente
+           -Editar la fecha de la reserva existente
   
        * Delete booking:
-           .Eliminar una reserva existente
+           -Eliminar una reserva existente
+
+       * Health Check:
+           -Comprobar que la api esta funcionando correctamente
+           -Comprobar que al escribir incorrectamente el endpoint no responda 201
   
      - Prueba especiales:
        * Pruebas de rendimiento (Pruebas de carga, picos)
