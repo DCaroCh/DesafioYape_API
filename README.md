@@ -8,8 +8,8 @@
        * JDK 1.8
       
      - Pruebas funcionales:
-     -     Crear nuevo token:
-     -         Generar token correcto de acceso
+       * Crear nuevo token:
+         - Generar token correcto de acceso
            -Validar que no genere token al ingresar credenciales no validas
   
        * Get booking:
