@@ -26,8 +26,8 @@ public class stepsDeleteBooking extends URLBase {
         response = request.log().all().delete(URL);
         statusCode = response.getStatusCode();
     }
-        @Then("^se validara que el status es 201")
-        public void getStatusCode() {
+    @Then("^se validara que el status es 201")
+    public void getStatusCode() {
             Assert.assertEquals("201", statusCode.toString());
         }
 
