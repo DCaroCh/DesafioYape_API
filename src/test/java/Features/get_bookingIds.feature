@@ -1,6 +1,6 @@
 # language: es
 
-Característica: : Muestra la lista de los códigos de las reservas que existen en el api
+Característica: Muestra la lista de los códigos de las reservas que existen en el api
 
   Esquema del escenario: Listar todos los códigos de reservas
 

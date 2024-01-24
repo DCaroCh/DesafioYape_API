@@ -1,6 +1,6 @@
 # language: es
 
-Característica: : Obtener token para editar y eliminar reservas
+Característica: Obtener token para editar y eliminar reservas
 
   Esquema del escenario: Generar token correcto de acceso
 
