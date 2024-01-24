@@ -31,5 +31,9 @@ public class stepsDeleteBooking extends URLBase {
             Assert.assertEquals("201", statusCode.toString());
         }
 
+    @Then("^se validara que el status es 405")
+    public void getWrongStatusCode() {
+        Assert.assertEquals("405", statusCode.toString());
+    }
     }
 
